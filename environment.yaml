@@ -1,0 +1,13 @@
+name: cryoem-napari
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - napari=0.4.16
+  - napari-pyclesperanto-assistant
+  - python=3.9
+  - pytorch
+  - pip>=22.0
+  - pip:
+    - empanada-napari @ https://github.com/kevinyamauchi/empanada-napari/tarball/patch-1#egg=empanada-napari-0.2.2
