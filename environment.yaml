@@ -18,5 +18,6 @@ dependencies:
     - napari
     - napari-clusters-plotter
     - napari-pymeshlab
+    - pooch
     - PyQt5
     - git+https://github.com/kevinyamauchi/empanada-napari.git@patch-1
