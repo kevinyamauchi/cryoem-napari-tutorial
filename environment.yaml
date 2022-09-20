@@ -4,10 +4,19 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - napari=0.4.16
-  - napari-pyclesperanto-assistant
+  - hdbscan
+  - notebook
+  - numba
+  - numpy=1.22.4
+  - pyclesperanto-prototype
   - python=3.9
-  - pytorch
+  - pytorch=1.11.0
   - pip>=22.0
+  - scikit-image
+  - torchvision
   - pip:
-    - empanada-napari @ https://github.com/kevinyamauchi/empanada-napari/tarball/patch-1#egg=empanada-napari-0.2.2
+    - napari
+    - napari-clusters-plotter
+    - napari-pymeshlab
+    - PyQt5
+    - git+https://github.com/kevinyamauchi/empanada-napari.git@patch-1
