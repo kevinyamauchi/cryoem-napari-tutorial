@@ -1,4 +1,4 @@
-name: cryoem-napari
+name: em-napari
 channels:
   - pytorch
   - conda-forge
