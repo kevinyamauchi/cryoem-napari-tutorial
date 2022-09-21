@@ -2,7 +2,7 @@
 
 ## Installation
 
-See this page for installation instructions
+See [this page](https://kevinyamauchi.github.io/open-image-data/tutorials/cryo_em/cryo_em_installation.html#) for installation instructions
 
 ## Usage
 
